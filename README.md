@@ -6,13 +6,14 @@ To write a python program to find the inverse of a matrix
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1 : 
-Import the numpy module to use the built-in functions for calculation
+Use import numpy as np to access NumPy’s linear algebra functions.
 ### Step 2: 
-Prepare the lists from each linear equations and assign in np.array()
+Create the square matrix using np.array().
 ### Step 3: 
-Using the np.linalg.solve(), we can find the solutions.
+Ensure the matrix is square and its determinant is not zero:
 ### Step 4: 
-End the program
+Use np.linalg.inv(A) to find the inverse of matrix A.
+isplay the inverse using print() or store it for further use.
 ## Program:
 #Program to find the inverse of a matrix.
 #Developed by:Hemalatha.A 
