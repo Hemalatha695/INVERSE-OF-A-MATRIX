@@ -15,6 +15,7 @@ Ensure the matrix is square and its determinant is not zero:
 Use np.linalg.inv(A) to find the inverse of matrix A.
 isplay the inverse using print() or store it for further use.
 ## Program:
+```
 #Program to find the inverse of a matrix.
 #Developed by:Hemalatha.A 
 #RegisterNumber:212224240056
@@ -22,6 +23,7 @@ import numpy as np
 A=np.array([[6,2,3],[3,1,1],[10,3,4]])
 result=np.linalg.inv(A)
 print(result)
+```
 
 ## Output:
 ![alt text](<Screenshot 2025-03-30 190725.png>)
